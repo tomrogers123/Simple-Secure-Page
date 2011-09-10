@@ -1,0 +1,47 @@
+/* STYLESHEET */
+
+/* BEGIN SECTION WHICH SETS GENERAL PAGE STYLES */
+
+* {margin:0; padding: 0;} 
+a,a:visited {color: #111;}
+a:hover,a:active {border-bottom: 2px solid #000;}
+ul {list-style: inside;}
+fieldset {border: 0px;}
+body {background: #111; font-family: Helvetica, sans-serif; }
+
+#main-wrapper {width: 1050px; margin: 20px auto; background: #FFF;  padding: 20px; border-radius: 20px; border: 8px solid #555; }
+
+#header h1 a {font-size: 60px; font-weight: 502; }
+#header em {font-size: 40px; font-style: normal;} 
+
+/* NAVIGATION STYLES */
+
+#primary-links {background: #eeeddd; margin: 0 -20px; padding: 5px; height: 25px; }
+#primary-links  li {display: inline;}
+#primary-links a {font-size: 20px; }
+#alternative-links li {display: inline; }
+#alternative-links a {font-size: 14px; }
+.common {display: block; list-style: none;}
+.common a {text-decoration: none; padding: 0 4px;}
+.current-page-link {border-bottom: 2px solid #000; font-weight: 700; }
+
+#main-content-section {float: left; width: 750px;}
+#sidebar {float: right; margin: 20px 0 0 0; width: 254px; padding: 10px; font-size: 14px; border-left: 4px solid #000; }
+#footer {clear: both; background: #eeeddd; margin: 1px -20px; text-align: center; }
+#footer p {font-weight: bold;}
+
+/* GENERAL TEXT STYLES */
+
+h1,h2,p {margin: 15px 0px;}
+p {line-height: 22px; }
+::selection,.selectedState {background: #eeeddd; }
+::-moz-selection {background: #eeeddd;}
+
+/* FORM STYLING */
+
+label {display: block; font-size: small; font-weight: bold; text-transform: uppercase;}
+#dataOption {display: inline;}
+.form-element-wrapper {padding: 10px; border: 1px solid #000; margin: 10px 0;}
+input, select,textarea {font-size: 16px;}
+.button {margin-bottom: 15px; background: #fff; border: 1px solid #000; border-radius: 5px; -moz-border-radius: 5px; padding: 3px; }
+
