@@ -1,0 +1,1 @@
+This project shows a simple way to secure a page using PHP.
